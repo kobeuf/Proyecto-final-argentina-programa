@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="todo-el-contenido">
+        <section class="seccion-izquierda">
+            <div class="seccion-izquierda-contenido">
+                <div class="perfil">
+                    <img class="foto-perfil" src="https://randomuser.me/api/portraits/men/97.jpg" alt="Foto de perfil">
+                    <p class="nombre">Jorge Nicolás López</p>
+                    <p class="profecion">FrontEnd Developer</p>
+                </div>
+                <div class="contacto-informacion">
+                    <p class="titulo-izquierdo">Contacto info</p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>+54 341 3036189
+                        </li>
+                        <li><i class="fa fa-envelope"></i>kobeuf@gmail.com
+                        </li>
+                        <li><i class="fa fa-github"></i>loremipsum.github.com
+                        </li>
+                        <li><i class="fa fa-map-marker"></i>Rosario, Argentina
+                        </li>
+                    </ul>
+                </div>
+                <div class="habilidades">
+                    <p class="titulo-izquierdo">Habilidades</p>
+                    <ul>
+                        <li><p>Python3</p></li>
+                        <li><p>C++</p></li>
+                        <li><p>JavaScript</p></li>
+                        <li><p>HTML5 & CSS3</p></li>
+                        <li><p>Git & GitHub</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-derecha">
+            <div class="seccion-derecha-contenido">
+                <section class="sobre">
+                    <div class="titulo-derecho">Sobre mi</div>
+                    <p class="sobre-mi-contenido">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae aliquid ab tempore deleniti modi animi facere, 
+                        laborum illum quis in quidem distinctio quod officia unde. Aspernatur eligendi architecto ipsam sint alias consequatur 
+                        at modi magni in, accusantium iure voluptates eius possimus? Incidunt veritatis illum corrupti nobis labore expedita.
+                    </p>
+                    <span class="texto-oculto" id="mostrarTexto">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae aliquid ab tempore deleniti modi animi facere, 
+                            laborum illum quis in quidem distinctio quod officia unde. Aspernatur eligendi architecto ipsam sint alias consequatur 
+                            at modi magni in, accusantium iure voluptates eius possimus? Incidunt veritatis illum corrupti nobis labore expedita.
+                        </p>
+                    </span>
+                    <button class="leer-mas" id="mostrarTexto_btn">Leer mas</button>
+                </section>
+
+                <section class="experiencia">
+                    <div class="titulo-derecho">Experiencia</div>
+                    <div class="experiencia-contenido">
+                        <div class="experiencia-izquierda">
+                            <p class="nombre-compania">Comapnia x</p>
+                            <p class="tiempo-trabajado">2016-2018</p>
+                        </div>
+                        <div class="experiencia-derecha">
+                            <p class="experiencia-puesto">Puesto x</p>
+                            <p class="experiencia-descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo. Non provident odio nam quas praesentium! 
+                                Fugit laborum accusantium repellat?
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="educacion">
+                    <div class="titulo-derecho">Educación</div>
+                    <div class="educacion-contenido">
+                        <div class="educacion-izquierda">
+                            <p class="nombre-escuela">Escuela x</p>
+                            <p class="tiempo-cursado">2016-2018</p>
+                        </div>
+                        <div class="educacion-derecha">
+                            <p class="educacion-carrera">Carrera x</p>
+                            <p class="educacion-descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo. Non provident odio nam quas praesentium! 
+                                Fugit laborum accusantium repellat?
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
